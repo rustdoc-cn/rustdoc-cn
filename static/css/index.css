@@ -3,8 +3,6 @@ a:hover, a:focus {
 }
 
 .header-bg {
-	font-family: Facto, Facto-Light, Microsoft YaHei, Hiragino Sans GB, '微软雅黑', WenQuanYi Micro Hei, sans-serif;
-	font-weight: 300;
     position: fixed;
     z-index: 20;
     top: 0;
@@ -201,18 +199,20 @@ a:hover, a:focus {
 	background-size: cover;
 }
 
-.slider-wrapper .about {
-	position: absolute;
-	top: 130px;
-	font-size: 14px;
-	color: #55b2e5;
-	width: 300px;
-	left: 50%;
-	margin-left: -150px;
+.footer-bg {
+	position: relative;
+	z-index: 21;
+	color: #eee;
+	background: #4a4a4a;
+	border-top: 1px solid #080808;
+	box-shadow: 0 -.125rem .25rem rgba(0,0,0,.075);
 }
 
-.slider-wrapper .about p {
-	border-bottom: #55b2e5 solid 1px;
+.footer {
+	font-size: 14px;
+	height: 36px;
+	line-height: 36px;
+	text-align: center;
 }
 
 @media (max-width: 991px) {
@@ -290,7 +290,7 @@ a:hover, a:focus {
 	}
 
 	.header-bg .nav_logo_wrap .navbar-logo {
-		width: 120px;
+		width: 150px;
 		height: 40px;
 		margin: auto;
 		color: #6c6c6f;
@@ -341,8 +341,10 @@ a:hover, a:focus {
 		display: none;
 	}
 
-	.slider-wrapper .about {
-		top: 100px;
+	.footer-bg {
+		color: #6c6c6c;
+		background: #fff;
+		border: none;
 	}
 }
 
