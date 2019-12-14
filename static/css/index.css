@@ -219,8 +219,6 @@ a:hover, a:focus {
 }
 
 .footer-bg {
-	position: relative;
-	z-index: 21;
 	color: #eee;
 	background: #4a4a4a;
 	border-top: 1px solid #080808;

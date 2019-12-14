@@ -58,7 +58,7 @@ $(function () {
         $(window).scroll(function (e) {
             p = $(this).scrollTop();
 
-            if (t <= p) {//向下滚
+            if (p > 0 && t <= p) {//向下滚
                 header.addClass('down');
             } else {//向上滚
                 header.removeClass('down');
