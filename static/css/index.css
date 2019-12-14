@@ -205,6 +205,10 @@ a:hover, a:focus {
 	background-size: cover;
 }
 
+.sub-slider-wrapper {
+	height: 200px;
+}
+
 .cont_main {
 	padding-top: 10px;
 	padding-bottom: 30px;
