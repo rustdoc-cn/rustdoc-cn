@@ -252,9 +252,13 @@ a:hover, a:focus {
 		top: 0;
 		opacity: 1;
 	}
-	
-	.header-bg a, .header-bg:hover a {
+
+	.header-bg .item-menu a {
 		color: #555;
+	}
+
+	.header-bg .item-menu:hover a {
+		color: #888;
 	}
 
     .header-bg .navbar-mobile-toggle {
