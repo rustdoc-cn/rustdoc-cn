@@ -323,9 +323,8 @@ a:hover, a:focus {
 		visibility: hidden;
 		width: 100%;
 		height: 0;
-		padding: 40px 30px;
 		background: transparent;
-		transition: background .46s ease-in-out,height .56s ease-in-out, visibility .36s ease-in-out;
+		transition: all .36s ease-in-out;
 	}
 
 	.header-bg .nav_main.menuhover:after {
@@ -334,15 +333,13 @@ a:hover, a:focus {
 
 	.header-bg.open .nav_main {
 		visibility: visible;
-		height: 100%;
-		background: #f1f1f0;
+		height: 220px;
+		background: #fff;
+		box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
 	}
 
 	.header-bg .nav_main ul {
-		margin: 40px 0;
-		padding: 0 0 50px;
-		padding-bottom: 50px;
-		border-bottom: 1px solid #9f9e9f;
+		margin-top: 70px;
 	}
 
 	.header-bg .nav_main li {
