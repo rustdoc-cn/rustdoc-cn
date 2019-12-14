@@ -28,7 +28,7 @@ $(function () {
     (function () {
         win.scroll(function () {
             var top = win.scrollTop();
-            if (top == 0) {
+            if (top <= 1) {
                 header.removeClass('on');
             }
             else {
@@ -54,13 +54,15 @@ $(function () {
     // 滚动方向，显示隐藏header
     (function () {
         var p = 0, t = 0;
+        var docH = $(document).height();
 
         $(window).scroll(function (e) {
             p = $(this).scrollTop();
+            var winH = $(window).height();
 
-            if (p > 0 && t <= p) {//向下滚
+            if (p > 1 && t <= p) {//向下滚
                 header.addClass('down');
-            } else {//向上滚
+            } else if(p < docH - winH - 1) {//向上滚
                 header.removeClass('down');
             }
             setTimeout(function () { t = p; }, 0);
