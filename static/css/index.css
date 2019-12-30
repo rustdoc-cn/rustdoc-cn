@@ -213,6 +213,12 @@ a:hover, a:focus {
 
 .cont_main .row_title {
 	margin-top: 10px;
+	border-bottom: 3px solid #55b2e5;
+	padding: 5px 10px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	background-color: #cee5f1;
+	color: #4f5a64;
 }
 
 .cont_main a, .cont_main:hover a {
