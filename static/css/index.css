@@ -232,6 +232,10 @@ a:hover, a:focus {
 	background: #f5f5f5;
 }
 
+.cont_main .ad {
+	margin-top: 20px;
+}
+
 .footer-bg {
 	color: #eee;
 	background: #171f26;
